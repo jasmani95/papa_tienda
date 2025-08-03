@@ -57,6 +57,6 @@ class AuthController extends Controller
         'message' => 'Usuario registrado correctamente',
         'token' => $token,
         'user' => $user
-    ],201);
+    ], 201);
 }
 }

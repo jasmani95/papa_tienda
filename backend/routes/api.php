@@ -12,4 +12,4 @@ Route::apiResource('categorias', CategoriaController::class);
 
 Route::post('/register', [AuthController::class, 'register']);
 
-Route::post('/login', [AuthController::class,'login']);
+Route::post('/login', [AuthController::class, 'login']);
